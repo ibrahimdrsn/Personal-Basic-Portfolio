@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+
+}
+
+body{
+    display: block;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#home{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+
+.name{
+    color: purple;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+    padding: 10px;
+    height: 100vh;
+ 
+}
+
+.container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+#skills{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.skills_images{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+    height: 50%;
+   
+
+}
+
+#contactme{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+.info a{
+    display: block;
+    margin: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.about{
+   display: inline-block;
+   align-content: center;
+   margin-top: 20px;
+
+}
+.about h1{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .silverbackground{
+    bottom: 40px;
+
+}
+
+.images:hover .myphoto{
+    left: 45%;
+
+}
